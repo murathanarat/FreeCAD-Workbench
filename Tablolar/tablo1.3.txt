@@ -1,0 +1,13 @@
+Temel Yük Birleşimi;Malzeme Kısmi Güvenlik Katsayısı
+Masif Ahşap;1.30
+Tutkallı Lamine Ahşap;1.25
+Lamine Levha Ahşap LVL,Kontrplak,OSB;1.20
+Yonga Levhalar;1.30
+Lif Levhalari,sert;1.30
+Lif Levhalari,orta;1.30
+Lif Levhalari,MDF;1.30
+Lif Levhalari,yumuşak;1.30
+Çapraz Lamine Ahşap,CLT;1.30
+Birleşimler;1.30
+Delikli Metal Plaka Bağlantı Elemanları;1.25
+Kazara Oluşan Tasarım Durumu Yük Birlemişi;1.00

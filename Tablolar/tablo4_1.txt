@@ -1,0 +1,6 @@
+Kiriş Tipi;Yükleme Tipi;L0/l*
+Basit Mesnetli;Sabit moment;1.0
+Basit Mesnetli;Düzgün yaylı yük;0.9
+Basit Mesnetli;Açıklık ortasında tekil yük;0.8
+Konsol;Düzgün yaylı yük;0.5
+Konsol;Serbest uçta tekil yük;0.8
