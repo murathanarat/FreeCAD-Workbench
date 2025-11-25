@@ -4,7 +4,7 @@ from sectionproperties.analysis.section import Section
 class Geo:
     #r:çap
     class Daire:
-        def __init__(self,r:float,l:float,l_x:float|None=None,l_y:float|None=None,n:int|None = 32,mesh_size:int|None=500):
+        def __init__(self,r:float,l:float|None=None,l_x:float|None=None,l_y:float|None=None,n:int|None = 32,mesh_size:int|None=500):
             if l_y == None:
                 l_y = l
             if l_x == None:
@@ -22,7 +22,7 @@ class Geo:
             self.kesit_ozelik = self.section.section_props
 
     class Dortgen:
-        def __init__(self,h:float,b:float,l:float,l_x:float|None=None,l_y:float|None=None,mesh_size:int|None=500):
+        def __init__(self,h:float,b:float,l:float|None=None,l_x:float|None=None,l_y:float|None=None,mesh_size:int|None=500):
             if l_y == None:
                 l_y = l
             if l_x == None:
@@ -42,7 +42,7 @@ class Geo:
             self.kesit_ozelik = self.section.section_props
 
     class Ucgen:
-        def __init__(self,h:float,b:float,l:float,l_x:float|None=None,l_y:float|None=None,mesh_size:int|None=500):
+        def __init__(self,h:float,b:float,l:float|None=None,l_x:float|None=None,l_y:float|None=None,mesh_size:int|None=500):
             if l_y == None:
                 l_y = l
             if l_x == None:
