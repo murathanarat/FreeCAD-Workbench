@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1042</width>
+    <width>983</width>
     <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -27,7 +30,7 @@
        <enum>QTabWidget::North</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="Malzeme_tab">
        <attribute name="title">
@@ -203,7 +206,7 @@
          </widget>
         </item>
         <item row="8" column="2">
-         <widget class="QLineEdit" name="h_lineEdit">
+         <widget class="QLineEdit" name="g_lineEdit">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
             <horstretch>0</horstretch>
@@ -232,7 +235,7 @@
          </widget>
         </item>
         <item row="10" column="2">
-         <widget class="QLineEdit" name="e_lineEdit">
+         <widget class="QLineEdit" name="q_lineEdit">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
             <horstretch>0</horstretch>
@@ -261,7 +264,7 @@
          </widget>
         </item>
         <item row="12" column="2">
-         <widget class="QLineEdit" name="l_lineEdit">
+         <widget class="QLineEdit" name="e_lineEdit">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
             <horstretch>0</horstretch>
@@ -293,7 +296,7 @@
          </widget>
         </item>
         <item row="3" column="2">
-         <widget class="QLineEdit" name="q_lineEdit">
+         <widget class="QLineEdit" name="h_lineEdit">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
             <horstretch>0</horstretch>
@@ -309,7 +312,7 @@
          </widget>
         </item>
         <item row="5" column="2">
-         <widget class="QLineEdit" name="g_lineEdit">
+         <widget class="QLineEdit" name="l_lineEdit">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
             <horstretch>0</horstretch>
@@ -351,6 +354,16 @@
          </size>
         </property>
        </spacer>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Ignored" vsizetype="Maximum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
       </item>
       <item>
        <spacer name="verticalSpacer">
@@ -406,12 +419,30 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1042</width>
+     <width>983</width>
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menu_yazdir">
+    <property name="title">
+     <string>Yazdır</string>
+    </property>
+    <addaction name="actiondocx"/>
+    <addaction name="actiona"/>
+   </widget>
+   <addaction name="menu_yazdir"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actiondocx">
+   <property name="text">
+    <string>docx</string>
+   </property>
+  </action>
+  <action name="actiona">
+   <property name="text">
+    <string>a</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

@@ -120,21 +120,26 @@ def f_E_xy(E005,lambda_xy):
 def f_c_0_d(f_c_0_k,C_n,C_y,C_b,omega):
     return (f_c_0_k*C_n*C_y*C_b)/omega
 
-def C_p(f_E,f_c_0_k,c=C):
+def C_p(f_E,f_c_0_k,C=C):
     x = f_E/f_c_0_k
-    x1 = (1+x) / 2*c
-    x2 = ((1 + x**2) / (2*c))**2
-    x3 = x / c
+    x1 = (1+x) / 2*C
+    x2 = ((1 + x**2) / (2*C))**2
+    x3 = x / C
     return x1 - (x2 - x3)**0.5
 
 def sigma_c_0_d():
     pass
 
 
-"""Burayı yap tablodan verileri çek ve a.py de kullan"""
+
 # Boyut katsayısı denklemi
 # örnek Masif ahşap için boyut katsayısı (C_b) bölüm 2.2
 # C_b(h,150,0.2,1.3) -> min([(150/h)**0.2 , 1.3])
+def C_b(malzeme,h):
+    if malzeme == "Masif Ahşap":
+        C_b_(h=h,sabit=150,üst=0.2,kiyas=1.3)
+
+
 def C_b_(h,sabit,üst,kiyas):
     return min([(sabit/h)**üst,kiyas])
 
@@ -147,8 +152,8 @@ def A_g(b,h):
     return b*h
 def l(b,h):
     return (b*(h**3))/12
-def i(l,Ag):
-    return (l/Ag)**0.5
+def i(l,A_g):
+    return (l/A_g)**0.5
 
 
 
