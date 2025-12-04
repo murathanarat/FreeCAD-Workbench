@@ -1,0 +1,7 @@
+Malzeme;Standart;KS1;KS2;KS3
+Masif Ahşap;TS EN 14081-1+A1;0.60;0.80;2.00
+Tutkallı Lamine;TS EN 14080;0.60;0.80;2.00
+Lamine Levha Ahşap (LVL);bölüm1;a;b;c
+Lamine Levha Ahşap (LVL);bölüm2;e;f;None
+Lamine Levha Ahşap (LVL);bölüm3;None;None;d
+Lamine Levha Ahşap (LVL);bölüm4;a,b,c

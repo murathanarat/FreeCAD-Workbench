@@ -1,5 +1,0 @@
-Yük Etki Süresi;Yük Etki Süresi Düzeltme Katsayısı,Cy;Açıklama
-Kalıcı Etki;Malzeme cinsine ve nem durumuna göre değişmektedir;Yük 6 aydan fazla etki etmektedir(zati,hareketli,yük,vs.)
-Orta Süreli Etki;Malzeme cinsine ve nem durumuna göre değişmektedir;Yük 1 hafta-6 ay arası etki etmektedir(kar yükü vs.)
-Anlık Etki;Malzeme cinsine ve nem durumuna göre değişmektedir;Yük anlık durumdan 1 haftaya kadar etki etmektedir(rüzgar ve deprem yükleri vs.)
-

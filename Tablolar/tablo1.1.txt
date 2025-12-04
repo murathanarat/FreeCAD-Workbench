@@ -1,4 +1,0 @@
-yük etki sınıfı;açıklama
-kalıcı etki;yük 6 aydan uzun süre etki etmektedir(zati ve hareketli yük vb.)
-orta süreli etki;yük 1 haftadan 6 aya kadar etki etmektedir(kar yükü vb.)
-anlık etki;yük anlık dırımdan 1 haftaya kadar etki etmektedir(rüzgar ve deprem yükleri vb.)

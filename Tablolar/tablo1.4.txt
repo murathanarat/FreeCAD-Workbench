@@ -1,4 +1,0 @@
-Nem Durumu;Nem Durumu Düzeltme Katsayısı,Cn;Açıklama
-Az;1.00;Ahşabın nem içeriği %12'den az(KS1)
-Orta;0.95;Ahşabın nem içeriği %12'den fazla %20'den az(KS2)
-Çok;0.85;Ahşabın nem içeriği %20'den fazla(KS3)

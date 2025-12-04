@@ -1,4 +1,0 @@
-Kullanım Sınıfı;Ortalama Nem İçeriği;İklim Koşulları
-KS1(Nem Durumu Az);<=12;Maks. %65 bağıl ortam nemi(20 derece için)
-KS2(Nem Durumu Orta);<=20;Maks. %65 bağıl ortam nemi(20 derece için)
-KS3(Nem Durumu Çok);>20;Kullanım sınıfı 1 ve 2 dışında

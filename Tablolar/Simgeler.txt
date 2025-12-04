@@ -1,7 +1,0 @@
-Simgeler;Açıklama
-Af;Dikme elemanın alanı
-Ag;Kayıpsız enkesit alanı
-Ai;Her Dikmenin ekseni ile yapma enkesitli kolon doğal ekseni arasındaki paralel eksenler arası dikme
-Ate;Tarafsız eksenin kiriş alt seviyesine olan uzaklığı
-Atop;Toplam kesit alanıdır
-a;Dikme elemanları arasındaki mesafe
